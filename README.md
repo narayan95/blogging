@@ -1,2 +1,2 @@
 # blogging
-created a home page,login page and sign up page. Rest pages in progress.
+created a home page,login page, sign up page and user page
