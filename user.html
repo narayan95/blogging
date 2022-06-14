@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user page</title>
+    <style>
+        *{
+            text-transform: capitalize;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+        }
+        #button{
+            position: relative;
+            left: 1340px;
+            font-size: 18px;
+            width: 80px;
+            height: 30px;
+            background-color: transparent;
+            color: azure;
+            top: 9px;
+}
+.button{
+width: 170px;
+height: 60px;
+font-size: 20px;
+background-color: black;
+color: azure;
+position: relative;
+top: 660px;
+left: 30px;
+
+
+
+}
+nav{
+    background-color: black;
+    height: 40px;
+}
+#post{width: 200px;
+height: 50px;
+font-size: 20px;
+background-color: black;
+color: azure;
+    
+}
+.modalcontainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  
+    background-color:rgb(189, 195, 195);
+    opacity: 0.7;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(16, 15, 15);
+    text-align: center;
+}
+.modal{
+    background-color: rgb(26, 24, 24);
+    position: relative;
+    top:130px;
+    left:430px;
+    height: 400px;
+    width: 600px;
+   padding: 5px 2px;
+   
+  
+    
+}
+
+
+
+body{
+    background-image: url('user.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+    </style>
+</head>
+<body>
+    <nav>
+       <a href="home.html"> <button id="button">logout</button>          </a>
+    </nav>
+  
+<a href=".modalcontainer"><button class="button">create post</button></a>
+<div class="modalcontainer">
+<div class="modal">
+   <br> <br><textarea id="title" rows="4" cols="75" placeholder="write the title of your blog here"></textarea><br><br>
+    <textarea id="content" rows="8" cols="75" placeholder="write the content of your blog here"></textarea><br><br>
+ 
+
+<button id="post"> create post</button>    
+
+
+
+
+
+
+</div>
+</div>
+</body>
+</html>
